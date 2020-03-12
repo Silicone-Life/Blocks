@@ -12,8 +12,7 @@ Blocks are the most basic representations of living cells. They are simple, dumb
 7. If a block is programmed to print some text into the console, don't try to change it and print to a web page. Build a new web-printer-block. Being mouthful is okay.
 8. Blocks must be non-blocking. m>_<m
 9. All interblock communications must happen through a fast stateless binary compressed comm channel.
-10. Any runtime errors will kill the block and it's children. End of story.
-10.1 Yes, each block can build it's own family tree to get something done. (as defined in manifest)
+10. Any runtime errors will kill the block and it's children. End of story. Yes, each block can build it's own family tree to get something done. (as defined in manifest)
 11. Each block has a unique address, derived via it's manifest or manually specified.  
 12. This is NOT a block-chain.
 
